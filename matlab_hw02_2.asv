@@ -1,0 +1,8 @@
+% 확률변수론(01) 22000013 강하림
+% hw: write a matlab program that generates random number with exponential
+% distribution from Uniform distributed random variable
+% histogram & real distribution function(pdf), N=10000 SAMPLE
+x =(0:0.01:2);
+p = raylpdf(x,0.5);
+figure;
+plot(x,p)
